@@ -1,0 +1,28 @@
+.modal
+  opacity: 1
+  transition: 0.5
+  &-overlay
+    position: fixed
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background: rgba($black-color, 0.4)
+  &-form
+    position: fixed
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    background: $white-color
+    padding: 20px
+    border-radius: 4px
+    width: 90%
+    max-width: 500px
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+  &-btns 
+    display: flex
+    justify-content: center
+    margin-top: 30px

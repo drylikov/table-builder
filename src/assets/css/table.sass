@@ -1,0 +1,34 @@
+.table
+  width: 100%
+  th, td
+    text-align: center
+    padding: 10px
+  &-row
+    &--active
+      background: $blue-light-color
+  &-wrap
+    margin: 20px 0
+    overflow-x: auto
+  &-options
+    display: flex
+    align-items: center
+    justify-content: center
+  &-btn
+    border: 2px solid $blue-color
+    border-radius: 4px
+    background: transparent
+    margin: 10px
+    transition: 0.5s
+    &--sort
+      &:hover, &-active
+        background: $blue-color
+        color: $white-color
+    &--edit
+      border: 2px solid $green-color
+      background: $green-color
+      color: $white-color
+    &--delete
+      border: 2px solid $red-color
+      background: $red-color
+      color: $white-color
+  

@@ -1,0 +1,26 @@
+.pagination
+  margin: 40px 0 60px
+  display: flex
+  align-items: center
+  justify-content: center
+  &-btn
+    width: 30px
+    height: 30px
+    font-size: 1.4rem
+    border: 2px solid $blue-color
+    border-radius: 50%
+    background: transparent
+    margin: 3px
+    transition: 0.5s
+    @media only screen and(min-width: $screen-sm)
+      margin: 6px
+      width: 36px
+      height: 36px
+    &:hover, &--active
+      background: $blue-color
+      color: $white-color
+  &-link
+    border: none
+    background: transparent
+    color: $blue-color
+    margin: 6px
